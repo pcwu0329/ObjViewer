@@ -1,0 +1,34 @@
+# User data
+model/*
+!model/cube/
+image/*
+!image/black.png
+poses/*
+!poses/00.txt
+batch/*
+!batch/cube.txt
+config/*
+!config/lifecam_720p.xml
+script/
+!config/*.m
+
+# Temporary files
+
+# Data
+*.mov
+*.wmv
+*.mp4
+*.zip
+input
+output
+
+# Compiled files
+*.sdf
+*.open*
+*.suo
+.vs
+Debug
+Release
+
+# Reference
+reference

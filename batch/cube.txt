@@ -1,0 +1,1 @@
+model/cube/cube.obj image/black_1280x720.png config/lifecam_720p.xml poses/00.txt 0 0 cube/
