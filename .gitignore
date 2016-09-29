@@ -26,6 +26,7 @@ output
 *.sdf
 *.open*
 *.suo
+*.db
 .vs
 Debug
 Release
