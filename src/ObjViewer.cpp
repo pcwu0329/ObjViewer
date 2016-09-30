@@ -33,11 +33,7 @@ ObjViewer::ObjViewer(const wxString& title)
     _lightingOn = true;
 
     // Data path
-#ifdef RESEARCH_HANDTRACKING
-    _dataFolder = "../../../data/PenPoseTracker/";
-#else
     _dataFolder = "./";
-#endif
     _objModelFile = _dataFolder + "model/cube/cube.obj";
     _imageFile = _dataFolder + "image/black.png";
 
