@@ -41,8 +41,11 @@ ObjViewer is used for viewing **.OBJ** 3D model files. Users can also **generate
 
 ### Generate Image Sequences
 
-For image sequence generation, the batch file text content should be
+For image sequence generation, the procedure is shown below.
 
+![alt tag](https://github.com/pcwu0329/ObjViewer/blob/master/image/Batch.png)
+
+The **batch file** text content should be:  
 `<model>` `<image>` `<camera>` `<poses>` `<blur>` `<noise>` `<output>`
 * `<model>`: OBJ model file
 * `<image>`: Background image file
@@ -52,4 +55,4 @@ For image sequence generation, the batch file text content should be
 * `<noise>`: Variance of Gaussian noise
 * `<output>`: Output directory
 
-![alt tag](https://github.com/pcwu0329/ObjViewer/blob/master/image/Batch.png)
+
