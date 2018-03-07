@@ -297,16 +297,16 @@ void
 ObjViewer::onMenuHelpAbout(wxCommandEvent& WXUNUSED(evt))
 {
     wxString msg = "Mouse left button: rotation\n"
-        + std::string("Mouse middle button: Move up, down, left, and right\n")
-        + std::string("Mouse right button: Move forward and backward\n\n\n")
-        + std::string("For image sequence generation, the file format should be\n")
-        + std::string("  <model> <image> <camemra> <poses> <blur> <noise> <output>\n")
+        + std::string("Mouse right button: Move up, down, left, and right\n")
+        + std::string("Mouse mouse scroll wheel: Move forward and backward\n\n\n")
+        + std::string("For image sequence generation, the batch file text content should be\n")
+        + std::string("  <model> <image> <camera> <poses> <blur> <noise> <output>\n")
         + std::string("    <model> : OBJ model file\n")
         + std::string("    <image> : Background image file\n")
         + std::string("    <camera>: Camera parameter file\n")
         + std::string("    <poses> : Poses file\n")
         + std::string("    <blur>  : Sigma of Gaussian blur kernel\n")
-        + std::string("    <noise> : variance of Gaussian noise\n")
+        + std::string("    <noise> : Variance of Gaussian noise\n")
         + std::string("    <output>: Output directory");
     wxMessageBox(msg);
 }
