@@ -45,7 +45,7 @@ public:
     static double PlaneFar;
 
     void setRenderMode(int renderMode);
-    bool setForegroundObject(const std::string& filename, bool isUnitization = true);
+    bool setForegroundObject(const std::string& filename, bool isUnitization);
     bool setBackgroundImamge(const std::string& filename);
     bool readCameraParameters(const std::string& camParamFile);
     void forceRender(const Mat3& R, const Vec3& t);

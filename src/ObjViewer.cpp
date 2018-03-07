@@ -68,7 +68,7 @@ ObjViewer::ObjViewer(const wxString& title)
     _mainSizer->Add(_ovCanvas, 1, wxEXPAND);
     _ovCanvas->setRenderMode(_renderMode);
     _ovCanvas->setBackgroundImamge(_imageFile);
-    _ovCanvas->setForegroundObject(_objModelFile);
+    _ovCanvas->setForegroundObject(_objModelFile, true);
 
     // ==================================== Controller part ====================================
     _controllerSizer = new wxBoxSizer(wxVERTICAL);
@@ -125,7 +125,7 @@ ObjViewer::onMenuFileOpenObjModel(wxCommandEvent& WXUNUSED(evt))
     if (objModelFile != "")
     {
         SetStatusText("Loading the new model file...");
-        if (_ovCanvas->setForegroundObject(objModelFile))
+        if (_ovCanvas->setForegroundObject(objModelFile, true))
         {
             _ovCanvas->setIsNewFile(true);
             _ovCanvas->resetMatrix();
@@ -278,7 +278,7 @@ ObjViewer::onMenuGenerateSequence(wxCommandEvent& WXUNUSED(evt))
         }
     }
 
-    _ovCanvas->setForegroundObject(modelFile);
+    _ovCanvas->setForegroundObject(modelFile, true);
     _ovCanvas->setOffsetPose(r, t, s);
     OVCanvas::PlaneNear = planeNear;
     OVCanvas::PlaneFar = planeFar;

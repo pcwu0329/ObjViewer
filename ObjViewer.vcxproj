@@ -74,7 +74,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>inc;C:\opencv\include;C:\wxWidgets-3.1.0\include;C:\wxWidgets-3.1.0\include\msvc;C:\Eigen;$(IncludePath)</IncludePath>
+    <IncludePath>inc;C:\Users\CVproject\Desktop\opencv\build\include;C:\wxWidgets-3.1.0\include;C:\wxWidgets-3.1.0\include\msvc;C:\Eigen;$(IncludePath)</IncludePath>
     <LibraryPath>C:\opencv\build\lib\Debug;C:\wxWidgets-3.1.0\lib\vc_x64_lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
