@@ -45,11 +45,15 @@ ObjViewer is used for viewing **.OBJ** 3D model files. Users can also **generate
 
 For image sequence generation, the batch file text content should be
 
-####<model> <image> <camera> <poses> <blur> <noise> <output>
-* **<model>**: OBJ model file
-* **<image>**: Background image file
-* **<camera>**: Camera parameter file
-* **<poses>**: Poses file
-* **<blur>**: Sigma of Gaussian blur kernel
-* **<noise>**: Variance of Gaussian noise
-* **<output>**: Output directory");
+---
+`<model>` `<image>` `<camera>` `<poses>` `<blur>` `<noise>` `<output>`
+`<model>` `<image>` `<camera>` `<poses>` `<blur>` `<noise>` `<output>`
+...
+---
+* `<model>`: OBJ model file
+* `<image>`: Background image file
+* `<camera>`: Camera parameter file
+* `<poses>`: Poses file
+* `<blur>`: Sigma of Gaussian blur kernel
+* `<noise>`: Variance of Gaussian noise
+* `<output>`: Output directory
