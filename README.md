@@ -41,7 +41,7 @@ ObjViewer is used for viewing **.OBJ** 3D model files. Users can also **generate
 
 ### Generate Image Sequences
 
-![alt tag](https://github.com/pcwu0329/ObjViewer/blob/master/image/AddDep.png)
+![alt tag](https://github.com/pcwu0329/ObjViewer/blob/master/image/Batch.png)
 
 For image sequence generation, the batch file text content should be
 

@@ -3,6 +3,12 @@ model/*
 !model/cube/
 image/*
 !image/black.png
+!image/ObjViewer.png
+!image/IncDir.png
+!image/LibDir.png
+!image/EnvVar.png
+!image/AddDep.png
+!image/Batch.png
 poses/*
 !poses/00.txt
 batch/*
