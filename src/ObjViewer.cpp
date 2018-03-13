@@ -42,7 +42,7 @@ ObjViewer::ObjViewer(const wxString& title)
     fileMenu->Append(ID_MENU_OPEN_MODEL, wxT("Open &Model"), "Open .obj model file");
     fileMenu->Append(ID_MENU_OPEN_BACKGROUND_IMAGE, wxT("Open &Background Image"), "Open background image file");
     fileMenu->Append(ID_MENU_SAVE_IMAGE, wxT("S&ave Image"), "Save current frame to image file");
-    fileMenu->Append(ID_MENU_GEN_SEQ, wxT("G&enerate Sequences"), "G&enerate Image Sequences with Poses");
+    fileMenu->Append(ID_MENU_GEN_SEQ, wxT("G&enerate Sequences"), "Generate Image Sequences with Poses");
     fileMenu->AppendSeparator();
     fileMenu->Append(ID_MENU_EXIT, wxT("E&xit\tEsc"), "Quit this program");
     // Make the "Help" menu
