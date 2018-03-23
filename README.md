@@ -3,7 +3,7 @@
 
 ObjViewer is a C++ program used for viewing **.OBJ** 3D model files. An .OBJ file can be accompanied by **.MTL** texture files. A .MTL file can be accompanied by other image files.
 
-![alt tag](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/ObjViewer.png)
+![alt text](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/ObjViewer.png)
 
 ### System Requirements for Using ObjViewer
 
@@ -25,25 +25,25 @@ ObjViewer is used for viewing **.OBJ** 3D model files. Users can also **generate
 ### Program Setup
 * Set Include Directories
 
-![alt tag](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/IncDir.png)
+![alt text](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/IncDir.png)
 
 * Set Library Directories
 
-![alt tag](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/LibDir.png)
+![alt text](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/LibDir.png)
 
 * Set Environment Variables
 
-![alt tag](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/EnvVar.png)
+![alt text](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/EnvVar.png)
 
 * Set Additional Dependencies
 
-![alt tag](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/AddDep.png)
+![alt text](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/AddDep.png)
 
 ### Generate Image Sequences
 
 For image sequence generation, the procedure is shown below.
 
-![alt tag](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/Batch.png)
+![alt text](https://raw.githubusercontent.com/pcwu0329/ObjViewer/master/image/Batch.png)
 
 The **batch file** text content should be:  
 `<model>` `<image>` `<camera>` `<poses>` `<blur>` `<noise>` `<output>`
